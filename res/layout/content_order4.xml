@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_order4"
+    android:background="#000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.harry.mad_assignment1_harrisonjenkins_17967352.OrderActivity4"
+    tools:showIn="@layout/activity_order4">
+
+    <TextView
+        android:text="Confirm Order:"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:textSize="32sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Cancel"
+
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        android:textAllCaps="false"
+
+        android:background="@drawable/cancelbutton"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="72dp"
+        android:id="@+id/button11" />
+
+    <Button
+        android:text="Confirm"
+
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        android:textAllCaps="false"
+
+        android:background="@drawable/nextbutton"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button11"
+        android:layout_alignEnd="@+id/textView10"
+        android:id="@+id/button12"
+        android:onClick="sendText"/>
+
+    <TextView
+        android:text="item1"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView10"
+        android:layout_alignStart="@+id/button11"
+        android:layout_marginTop="55dp"
+        android:id="@+id/item1" />
+
+    <Button
+
+        android:layout_marginEnd="45dp"
+        android:id="@+id/item1Btn"
+
+        android:text="-"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/removebutton"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_alignBaseline="@+id/item1Qty"
+        android:layout_alignBottom="@+id/item1Qty"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="qty1"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item1Qty"
+        android:layout_alignBaseline="@+id/item1"
+        android:layout_alignBottom="@+id/item1"
+        android:layout_toStartOf="@+id/item1Btn"
+        android:layout_marginEnd="17dp" />
+
+    <TextView
+        android:text="x"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item2Qty"
+        android:layout_alignBaseline="@+id/item2"
+        android:layout_alignBottom="@+id/item2"
+        android:layout_alignStart="@+id/item1Qty" />
+
+    <TextView
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:id="@+id/item2"
+        android:layout_below="@+id/item1Btn"
+        android:layout_alignStart="@+id/item1" />
+
+    <Button
+        android:text="-"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/removebutton"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:id="@+id/item2Btn"
+        android:layout_alignBaseline="@+id/item2Qty"
+        android:layout_alignBottom="@+id/item2Qty"
+        android:layout_alignStart="@+id/item1Btn" />
+
+
+</RelativeLayout>

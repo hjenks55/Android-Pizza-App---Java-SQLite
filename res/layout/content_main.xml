@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:background="#000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.harry.mad_assignment1_harrisonjenkins_17967352.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wild West Pizzas"
+        android:textStyle="bold"
+        android:textColor="#f90000"
+        android:background="#000000"
+        android:id="@+id/textView"
+        android:textSize = "38sp"
+        android:layout_marginTop="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        tools:fontFamily="casual" />
+
+    <Button
+        android:id="@+id/quickOrder"
+
+        android:text="Quick Order"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textAllCaps="false"
+
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+        android:layout_width="200dp"
+        android:layout_height="75sp"
+        android:layout_marginTop="94dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/delivery"
+
+        android:text="Delivery"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textAllCaps="false"
+
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+        android:layout_width="200dp"
+        android:layout_height="75sp"
+        android:layout_below="@+id/quickOrder"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/pickup"
+
+        android:text="Pickup"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textAllCaps="false"
+
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+        android:layout_width="200dp"
+        android:layout_height="75sp"
+        android:layout_below="@+id/delivery"
+        android:layout_alignStart="@+id/delivery"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentEnd="true" />
+<!--
+    <Button
+        android:text="Testdb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/buttonTest"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginStart="80dp" />
+
+    <Button
+        android:text="testsms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonTest"
+        android:layout_toEndOf="@+id/buttonTest"
+        android:layout_marginStart="16dp"
+        android:id="@+id/button2" />
+-->
+
+</RelativeLayout>

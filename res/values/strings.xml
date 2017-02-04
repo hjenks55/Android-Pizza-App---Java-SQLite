@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MAD-Assignment1-HarrisonJenkins-17967352</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_quick_order">QuickOrderActivity</string>
+    <string name="title_activity_delivery">DeliveryActivity</string>
+    <string name="title_activity_pickup">PickupActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_order1">OrderActivity1</string>
+    <string name="title_activity_order2">OrderActivity2</string>
+    <string name="title_activity_order3">OrderActivity3</string>
+    <string name="title_activity_order4">OrderActivity4</string>
+    <string name="title_activity_send_sms">SendSMSActivity</string>
+    <string name="title_activity_pickup2">PickupActivity2</string>
+    <string name="title_activity_delivery2">DeliveryActivity2</string>
+    <string name="title_activity_sql">SqlActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
